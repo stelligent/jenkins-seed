@@ -4,4 +4,4 @@ This project contains Jenkins Job DSL for defining the jobs.  For more informati
 # Use
 
 * Install `Job DSL` Jenkins plugin
-* Create a new job with the Git SCM of this repo and a step to `Process Job DSLs` with `Look on Filesystem` and `DSL Scripts` set to `jobs/*_job.groovy`
+* Create a new job with the Git SCM of this repo and a step to `Process Job DSLs` with `Look on Filesystem` and `DSL Scripts` set to `jobs/*.groovy`
